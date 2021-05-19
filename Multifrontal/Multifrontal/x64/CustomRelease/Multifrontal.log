@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  BinarySearch.cpp
+  Link.cpp
+  Matrix.cpp
+  Multifrontal.cpp
+Multifrontal.cpp(192): warning C4244: 'argument': conversion from 'uint64_t' to 'double', possible loss of data
+Multifrontal.cpp(219): warning C4244: 'argument': conversion from 'uint64_t' to 'double', possible loss of data
+Multifrontal.cpp(302): warning C4244: 'return': conversion from 'uint64_t' to 'double', possible loss of data
+  Node.cpp
+Node.cpp(80): warning C4244: 'argument': conversion from 'tNODENAME' to 'double', possible loss of data
+Node.cpp(90): warning C4244: 'return': conversion from 'uint64_t' to 'double', possible loss of data
+  ShortenMatrix.cpp
+  Generating code
+  All 800 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Multifrontal.vcxproj -> C:\Users\letru\Documents\C++\Multifrontal\x64\CustomRelease\Multifrontal.exe

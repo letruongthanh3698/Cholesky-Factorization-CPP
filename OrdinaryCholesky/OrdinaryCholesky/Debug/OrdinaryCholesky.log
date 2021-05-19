@@ -1,0 +1,116 @@
+﻿  stdafx.cpp
+  OrdinaryCholesky_terminate.cpp
+  OrdinaryCholesky_initialize.cpp
+  OrdinaryCholesky_data.cpp
+  OrdinaryCholesky.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\xutility(2350): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\xutility(2350): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(149): note: see reference to function template instantiation '_OutIt std::copy<const T*,T*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char_T *,
+              T=char_T,
+              _InIt=const char_T *
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(137): note: while compiling class template member function 'void coder::detail::data_ptr<T,SZ>::copy(const T *const ,SZ)'
+          with
+          [
+              T=char_T,
+              SZ=coder::SizeType
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(692): note: see reference to function template instantiation 'void coder::detail::data_ptr<T,SZ>::copy(const T *const ,SZ)' being compiled
+          with
+          [
+              T=char_T,
+              SZ=coder::SizeType
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(619): note: see reference to class template instantiation 'coder::detail::data_ptr<T,SZ>' being compiled
+          with
+          [
+              T=char_T,
+              SZ=coder::SizeType
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(666): note: see reference to class template instantiation 'coder::array_base<char_T,coder::SizeType,2>' being compiled
+  main.cpp
+c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\main.cpp(60): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\main.cpp(112): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\main.cpp(114): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\xutility(2350): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\xutility(2350): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(149): note: see reference to function template instantiation '_OutIt std::copy<const T*,T*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char_T *,
+              T=char_T,
+              _InIt=const char_T *
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(137): note: while compiling class template member function 'void coder::detail::data_ptr<T,SZ>::copy(const T *const ,SZ)'
+          with
+          [
+              T=char_T,
+              SZ=coder::SizeType
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(692): note: see reference to function template instantiation 'void coder::detail::data_ptr<T,SZ>::copy(const T *const ,SZ)' being compiled
+          with
+          [
+              T=char_T,
+              SZ=coder::SizeType
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(619): note: see reference to class template instantiation 'coder::detail::data_ptr<T,SZ>' being compiled
+          with
+          [
+              T=char_T,
+              SZ=coder::SizeType
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(666): note: see reference to class template instantiation 'coder::array_base<char_T,coder::SizeType,2>' being compiled
+c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(526): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\main.cpp(45): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size<uint64_t,uint64_t>(uint64_t,uint64_t)' being compiled
+          with
+          [
+              T=double
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\main.cpp(45): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size<uint64_t,uint64_t>(uint64_t,uint64_t)' being compiled
+          with
+          [
+              T=double
+          ]
+c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(531): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
+          with
+          [
+              T=double,
+              Last=uint64_t
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
+          with
+          [
+              T=double,
+              Last=uint64_t
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  Generating Code...
+  OrdinaryCholesky.vcxproj -> C:\Users\letru\Documents\C++\OrdinaryCholesky\Debug\OrdinaryCholesky.exe
+  OrdinaryCholesky.vcxproj -> C:\Users\letru\Documents\C++\OrdinaryCholesky\Debug\OrdinaryCholesky.pdb (Partial PDB)

@@ -1,0 +1,53 @@
+﻿  main.cpp
+main.cpp(58): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+main.cpp(111): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+main.cpp(113): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(526): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+  c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  main.cpp(43): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size<uint64_t,uint64_t>(uint64_t,uint64_t)' being compiled
+          with
+          [
+              T=double
+          ]
+  main.cpp(43): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size<uint64_t,uint64_t>(uint64_t,uint64_t)' being compiled
+          with
+          [
+              T=double
+          ]
+c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(531): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+  c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
+          with
+          [
+              T=double,
+              Last=uint64_t
+          ]
+  c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
+          with
+          [
+              T=double,
+              Last=uint64_t
+          ]
+  c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  c:\users\letru\documents\c++\cholesky\cholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+          with
+          [
+              T=double,
+              First=uint64_t
+          ]
+  cholesky.vcxproj -> C:\Users\letru\Documents\C++\cholesky\x64\Release\cholesky.exe

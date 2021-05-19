@@ -1,0 +1,55 @@
+﻿  stdafx.cpp
+  ShortenMatrix.cpp
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(33): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(35): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(43): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(66): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(68): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(69): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(71): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(72): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\shortenmatrix.cpp(77): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+  Node.cpp
+f:\c++\multifrontal\multifrontal\node.cpp(49): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+f:\c++\multifrontal\multifrontal\node.cpp(80): warning C4244: 'argument': conversion from 'tNODENAME' to 'double', possible loss of data
+f:\c++\multifrontal\multifrontal\node.cpp(90): warning C4244: 'return': conversion from 'uint64_t' to 'double', possible loss of data
+  Multifrontal.cpp
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(88): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(98): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(104): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(109): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(122): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(152): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(190): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(194): warning C4244: 'argument': conversion from 'uint64_t' to 'double', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(201): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(204): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(206): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(207): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(208): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(212): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(215): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(216): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(221): warning C4244: 'argument': conversion from 'uint64_t' to 'double', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(236): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(239): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(270): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(271): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\multifrontal.cpp(304): warning C4244: 'return': conversion from 'uint64_t' to 'double', possible loss of data
+  Matrix.cpp
+f:\c++\multifrontal\multifrontal\matrix.cpp(15): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(17): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(23): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(35): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(58): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(59): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(77): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(97): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(138): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(155): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+f:\c++\multifrontal\multifrontal\matrix.cpp(169): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+  Link.cpp
+  BinarySearch.cpp
+  Generating Code...
+  Multifrontal.vcxproj -> F:\C++\Multifrontal\Debug\Multifrontal.exe
+  Multifrontal.vcxproj -> F:\C++\Multifrontal\Debug\Multifrontal.pdb (Partial PDB)

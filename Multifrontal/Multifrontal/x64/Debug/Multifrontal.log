@@ -1,0 +1,10 @@
+﻿  Multifrontal.cpp
+Multifrontal.cpp(189): warning C4244: 'argument': conversion from 'uint64_t' to 'double', possible loss of data
+Multifrontal.cpp(216): warning C4244: 'argument': conversion from 'uint64_t' to 'double', possible loss of data
+Multifrontal.cpp(299): warning C4244: 'return': conversion from 'uint64_t' to 'double', possible loss of data
+  BinarySearch.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  Finished generating code
+  Multifrontal.vcxproj -> C:\Users\letru\Documents\C++\Multifrontal\x64\Debug\Multifrontal.exe
+  Multifrontal.vcxproj -> C:\Users\letru\Documents\C++\Multifrontal\x64\Debug\Multifrontal.pdb (Partial PDB)
