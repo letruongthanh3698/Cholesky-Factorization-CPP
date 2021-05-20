@@ -72,8 +72,8 @@ int main()
 	cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
 	cout << "Executation time: " << cpu_time_used << ". Saving!\n";
 
-	ofstream output_file(filename + ".result.txt");
-	output_file.setf(ios::fixed);
+	ofstream output_file(filename + ".M.result.txt");
+	//output_file.setf(ios::fixed);
 	output_file.setf(ios::showpoint);
 	output_file.precision(precision);
 

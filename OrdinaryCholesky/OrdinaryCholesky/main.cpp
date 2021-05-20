@@ -94,8 +94,8 @@ static void main_OrdinaryCholesky()
 	cout << "\n";
 	}*/
 
-	ofstream output_file(filename + ".result.txt");
-	output_file.setf(ios::fixed);
+	ofstream output_file(filename + ".OC.result.txt");
+	//output_file.setf(ios::fixed);
 	output_file.setf(ios::showpoint);
 	output_file.precision(precision);
 
@@ -103,7 +103,7 @@ static void main_OrdinaryCholesky()
 
 	uint64_t cnt = 0;
 	std::ostringstream res_str;
-	res_str.setf(ios::fixed);
+	//res_str.setf(ios::fixed);
 	res_str.setf(ios::showpoint);
 	res_str.precision(precision);
 	for (uint64_t i = 0; i < rows; i++)

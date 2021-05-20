@@ -3,8 +3,8 @@ main.cpp(192): warning C4244: 'argument': conversion from 'uint64_t' to 'double'
 main.cpp(219): warning C4244: 'argument': conversion from 'uint64_t' to 'double', possible loss of data
 main.cpp(302): warning C4244: 'return': conversion from 'uint64_t' to 'double', possible loss of data
   Generating code
-  545 of 800 functions (68.1%) were compiled, the rest were copied from previous compilation.
-    4 functions were new in current compilation
-    19 functions had inline decision re-evaluated but remain unchanged
+  2 of 800 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Multifrontal.vcxproj -> C:\Users\letru\Documents\C++\Multifrontal\x64\Release\Multifrontal.exe
+  Multifrontal.vcxproj -> C:\Users\letru\Documents\C++\CholeskyFactorizationCPP\Multifrontal\x64\Release\Multifrontal.exe

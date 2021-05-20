@@ -139,8 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="data_5489.txt" />
-    <Text Include="data_90449.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>

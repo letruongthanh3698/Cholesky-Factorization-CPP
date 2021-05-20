@@ -1,16 +1,15 @@
-﻿  stdafx.cpp
-  main.cpp
+﻿  main.cpp
 main.cpp(59): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
 main.cpp(111): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
 main.cpp(113): warning C4244: 'argument': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
-c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(526): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
-  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(526): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+  c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
           with
           [
               T=double,
               First=uint64_t
           ]
-  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+  c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
           with
           [
               T=double,
@@ -26,36 +25,34 @@ c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(526
           [
               T=double
           ]
-c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(531): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
-  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
+c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(531): warning C4244: '=': conversion from 'uint64_t' to 'coder::SizeType', possible loss of data
+  c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
           with
           [
               T=double,
               Last=uint64_t
           ]
-  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
+  c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(527): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<1,uint64_t>(Last)' being compiled
           with
           [
               T=double,
               Last=uint64_t
           ]
-  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+  c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
           with
           [
               T=double,
               First=uint64_t
           ]
-  c:\users\letru\documents\c++\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
+  c:\users\letru\documents\c++\choleskyfactorizationcpp\ordinarycholesky\ordinarycholesky\coder_array.h(538): note: see reference to function template instantiation 'void coder::array_base<T,coder::SizeType,2>::set_size_i<0,uint64_t,uint64_t>(First,uint64_t)' being compiled
           with
           [
               T=double,
               First=uint64_t
           ]
-  OrdinaryCholesky.cpp
-  OrdinaryCholesky_data.cpp
-  OrdinaryCholesky_initialize.cpp
-  OrdinaryCholesky_terminate.cpp
   Generating code
-  All 287 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  4 of 287 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    30 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  OrdinaryCholesky.vcxproj -> C:\Users\letru\Documents\C++\OrdinaryCholesky\x64\Release\OrdinaryCholesky.exe
+  OrdinaryCholesky.vcxproj -> C:\Users\letru\Documents\C++\CholeskyFactorizationCPP\OrdinaryCholesky\x64\Release\OrdinaryCholesky.exe
