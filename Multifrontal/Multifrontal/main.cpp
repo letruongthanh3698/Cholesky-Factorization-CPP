@@ -21,6 +21,8 @@ using namespace std;
 #include "ShortenMatrix.h"
 #include "BinarySearch.h"
 
+#define mETREE_PRINTED	true
+
 uint64_t nodecnt_U64;
 Node* Nodes;
 Node* ETreeNodes;
@@ -34,6 +36,7 @@ static void CalculateLMatrix();
 
 int main()
 {
+	cout << "Cholesky Factorization based on Multifrontal method!\n";
 	cout << "Enter Data filename (without \"txt\"):";
 	cin >> filename;
 	ifstream input_file(filename + ".txt");
@@ -66,6 +69,11 @@ int main()
 	RestoreSystem(input_VE);
 	input_VE.clear();
 	ConstructEliminationTree();
+#if mETREE_PRINTED
+	for (uint64_t i = 0; i < nodecnt_U64; i++)
+		cout << "Node name:" << i + 1 << ", Parent:" << ETreeNodes[i].Parent + 1 << "\n";
+#endif
+
 	CalculateLMatrix();
 
 	end = clock();
