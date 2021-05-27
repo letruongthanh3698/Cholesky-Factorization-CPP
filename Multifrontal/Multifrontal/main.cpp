@@ -21,7 +21,7 @@ using namespace std;
 #include "ShortenMatrix.h"
 #include "BinarySearch.h"
 
-#define mETREE_PRINTED	true
+#define mETREE_PRINTED	false
 
 uint64_t nodecnt_U64;
 Node* Nodes;
