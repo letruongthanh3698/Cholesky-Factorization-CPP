@@ -2,8 +2,8 @@ clear all
 tic()
 error_relative_max=1e-5;
 
-matname="data_5489_217669.txt";
-resname="data_90449_4427725.M.result.txt";
+matname="data_5489_263351.txt";
+resname="data_5489_263351.M.result.txt";
 
 
 matrixfile="dataset/"+matname;
@@ -44,22 +44,24 @@ else
     err_stat(3,:)=inf;
     inf_count=0;
     for i=1:1:length(L_res)
-        val=L_crt(L_res(i,1)+1,L_res(i,2)+1);
-        err=abs((L_res(i,3)-val)/val);
-        if err~=inf
+        val=full(L_crt(L_res(i,1)+1,L_res(i,2)+1));
+        if (val~=0)
+            err=abs((L_res(i,3)-val)/val);
             err_max=max(err_max,err);
             err_min=min(err_min,err);
             err_sum=err_sum+err;
+            pos=fix(-(log10(err)))+1;
+            if pos>err_stat_max
+                pos=err_stat_max;
+            end
+            if pos<1
+                pos=1;
+            end
         else
             inf_count=inf_count+1;
-        end
-        pos=fix(-(log10(err)))+1;
-        if pos>err_stat_max
-            pos=err_stat_max;
-        end
-        if pos<1
             pos=1;
         end
+
         err_stat(1,pos)=err_stat(1,pos)+1;
         err_stat(2,pos)=max(err_stat(2,pos),abs(L_res(i,3)));
         err_stat(3,pos)=min(err_stat(3,pos),abs(L_res(i,3)));
